@@ -2,7 +2,7 @@
 
 This module installs the latest version of [TotalFinder](http://totalfinder.binaryage.com/)
 
-A great module has a working travis build
+A great module has a working CI build, right?
 
 [![Build Status](https://travis-ci.org/pseudomuto/puppet-totalfinder.png?branch=master)](https://travis-ci.org/pseudomuto/puppet-totalfinder)
 
