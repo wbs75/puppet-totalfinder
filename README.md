@@ -4,15 +4,9 @@ This module installs the latest version of [TotalFinder](http://totalfinder.bina
 
 A great module has a working CI build, right?
 
-[![Build Status](https://travis-ci.org/pseudomuto/puppet-totalfinder.png?branch=master)](https://travis-ci.org/pseudomuto/puppet-totalfinder)
+[![Build Status](https://travis-ci.org/boxen/puppet-totalfinder.png?branch=master)](https://travis-ci.org/boxen/puppet-totalfinder)
 
 ## Usage
-
-### Add to Your `Puppetfile` (_pending fork from @boxen)
-
-```puppet
-github "totalfinder", "1.0.0"
-```
 
 ### Include the Class in Your Module (personal, site, etc.)
 
