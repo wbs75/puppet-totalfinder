@@ -4,7 +4,7 @@ This module installs the latest version of [TotalFinder](http://totalfinder.bina
 
 A great module has a working CI build, right?
 
-[![Build Status](https://travis-ci.org/boxen/puppet-totalfinder.png?branch=master)](https://travis-ci.org/boxen/puppet-totalfinder)
+[![Build Status](https://travis-ci.org/boxen/puppet-totalfinder.svg?branch=master)](https://travis-ci.org/boxen/puppet-totalfinder)
 
 ## Usage
 
