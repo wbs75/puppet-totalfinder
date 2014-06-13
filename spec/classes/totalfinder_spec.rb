@@ -6,7 +6,7 @@ describe 'totalfinder' do
   it do
     should contain_package('TotalFinder').with({
       :provider => 'pkgdmg',
-      :source   => 'http://downloads.binaryage.com/TotalFinder-1.4.18.dmg'
+      :source   => 'http://downloads.binaryage.com/TotalFinder-1.6.dmg'
     })
   end
 end
