@@ -1,12 +1,9 @@
-# Public: Installs TotalFinder in /Applications
-#
-# Examples:
-#
-#   include totalfinder
-class totalfinder {
-  package { 'TotalFinder':
+class totalfinder(
+  $version = '1.1.18',
+) {
+  package { "TotalFinder_${version}":
     ensure   => installed,
-    source   => 'http://downloads.binaryage.com/TotalFinder-1.4.18.dmg',
-    provider => 'appdmg',
+    source   => "http://downloads.binaryage.com/TotalFinder-${version}.dmg",
+    provider => 'pkgdmg'
   }
 }
